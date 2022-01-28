@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1D37D293279F6A630047C7D6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D37D292279F6A630047C7D6 /* main.cpp */; };
+		1D37D29B279F6B900047C7D6 /* SortedCollection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D37D299279F6B900047C7D6 /* SortedCollection.cpp */; };
+		1D37D29E279F6CC40047C7D6 /* SortedCollectionTesting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D37D29D279F6CC40047C7D6 /* SortedCollectionTesting.cpp */; };
+		1D37D2A0279F6D7F0047C7D6 /* CollectionTesting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D37D29F279F6D7F0047C7D6 /* CollectionTesting.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,11 @@
 /* Begin PBXFileReference section */
 		1D37D28F279F6A630047C7D6 /* Lab: Sorted Collection 3.4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab: Sorted Collection 3.4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D37D292279F6A630047C7D6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1D37D299279F6B900047C7D6 /* SortedCollection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortedCollection.cpp; sourceTree = "<group>"; };
+		1D37D29A279F6B900047C7D6 /* SortedCollection.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortedCollection.hpp; sourceTree = "<group>"; };
+		1D37D29C279F6B990047C7D6 /* Collection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Collection.h; sourceTree = "<group>"; };
+		1D37D29D279F6CC40047C7D6 /* SortedCollectionTesting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortedCollectionTesting.cpp; sourceTree = "<group>"; };
+		1D37D29F279F6D7F0047C7D6 /* CollectionTesting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CollectionTesting.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,11 @@
 			isa = PBXGroup;
 			children = (
 				1D37D292279F6A630047C7D6 /* main.cpp */,
+				1D37D299279F6B900047C7D6 /* SortedCollection.cpp */,
+				1D37D29A279F6B900047C7D6 /* SortedCollection.hpp */,
+				1D37D29C279F6B990047C7D6 /* Collection.h */,
+				1D37D29D279F6CC40047C7D6 /* SortedCollectionTesting.cpp */,
+				1D37D29F279F6D7F0047C7D6 /* CollectionTesting.cpp */,
 			);
 			path = "Lab: Sorted Collection 3.4";
 			sourceTree = "<group>";
@@ -119,6 +132,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D37D2A0279F6D7F0047C7D6 /* CollectionTesting.cpp in Sources */,
+				1D37D29E279F6CC40047C7D6 /* SortedCollectionTesting.cpp in Sources */,
+				1D37D29B279F6B900047C7D6 /* SortedCollection.cpp in Sources */,
 				1D37D293279F6A630047C7D6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
